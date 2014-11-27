@@ -1,0 +1,380 @@
+0x7fa1a09fb6c8: brk(0x(nil))
+	returns: 26337280
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc418: mmap(0x(nil), 8192, 3, 34, -1, 0)
+	returns: 0x0x7fa18db7d000
+0x7fa1a09fc295: access(/etc/ld.so.preload, 4)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/etc/ld.so.cache, 0, 1)
+	returns: 4
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011f020)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 137676, 1, 2, 4, 0)
+	returns: 0x0x7fa18db0d000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libselinux.so.1, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011f1d8, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011f070)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 2226160, 5, 2050, 4, 0)
+	returns: 0x0x7fa18d8aa000
+0x7fa1a09fc475: mprotect(0x0x7fa18d8c8000, 2093056, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18dac7000, 8192, 3, 2066, 4, 118784)
+	returns: 0x0x7fa18dac7000
+0x7fa1a09fc418: mmap(0x0x7fa18dac9000, 2032, 3, 50, -1, 0)
+	returns: 0x0x7fa18dac9000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/librt.so.1, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011f1a8, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011f040)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 2128856, 5, 2050, 4, 0)
+	returns: 0x0x7fa18d695000
+0x7fa1a09fc475: mprotect(0x0x7fa18d69c000, 2093056, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18d89b000, 8192, 3, 2066, 4, 24576)
+	returns: 0x0x7fa18d89b000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libacl.so.1, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011f178, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011f010)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18d8a1000
+0x7fa1a09fc418: mmap(0x(nil), 2130560, 5, 2050, 4, 0)
+	returns: 0x0x7fa18d46b000
+0x7fa1a09fc475: mprotect(0x0x7fa18d473000, 2093056, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18d672000, 8192, 3, 2066, 4, 28672)
+	returns: 0x0x7fa18d672000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libc.so.6, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011f148, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011efe0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 3717176, 5, 2050, 4, 0)
+	returns: 0x0x7fa18d0d5000
+0x7fa1a09fc475: mprotect(0x0x7fa18d257000, 2097152, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18d457000, 20480, 3, 2066, 4, 1581056)
+	returns: 0x0x7fa18d457000
+0x7fa1a09fc418: mmap(0x0x7fa18d45c000, 18488, 3, 50, -1, 0)
+	returns: 0x0x7fa18d45c000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libdl.so.2, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011f008, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011eea0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 2109696, 5, 2050, 4, 0)
+	returns: 0x0x7fa18ced0000
+0x7fa1a09fc475: mprotect(0x0x7fa18ced2000, 2097152, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18d0d2000, 8192, 3, 2066, 4, 8192)
+	returns: 0x0x7fa18d0d2000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libpthread.so.0, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011ee98, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011ed30)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18d468000
+0x7fa1a09fc418: mmap(0x(nil), 2208672, 5, 2050, 4, 0)
+	returns: 0x0x7fa18ccb4000
+0x7fa1a09fc475: mprotect(0x0x7fa18cccb000, 2093056, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18ceca000, 8192, 3, 2066, 4, 90112)
+	returns: 0x0x7fa18ceca000
+0x7fa1a09fc418: mmap(0x0x7fa18cecc000, 13216, 3, 50, -1, 0)
+	returns: 0x0x7fa18cecc000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7fa1a09fc1d5: open(/lib/x86_64-linux-gnu/libattr.so.1, 0, 0)
+	returns: 4
+0x7fa1a09fc235: read(4, 0x7fffe011ed48, 832 (0x340) bytes)
+	returns: 832
+0x7fa1a09fc1a2: fstat(4, 0x0x7fffe011ebe0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 2113880, 5, 2050, 4, 0)
+	returns: 0x0x7fa18caaf000
+0x7fa1a09fc475: mprotect(0x0x7fa18cab3000, 2093056, 0)
+	returns: 0
+0x7fa1a09fc418: mmap(0x0x7fa18ccb2000, 8192, 3, 2066, 4, 12288)
+	returns: 0x0x7fa18ccb2000
+0x7fa1a09fc205: close(4)
+	returns: 0
+0x7fa1a09fc418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18ca7c000
+0x7fa1a09fc418: mmap(0x(nil), 8192, 3, 34, -1, 0)
+	returns: 0x0x7fa18ca73000
+0x7fa1a09e8304: arch_prctl(4098, 140331826231200)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18ccb2000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18ceca000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18d0d2000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18d457000, 16384, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18d672000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18d89b000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa18dac7000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x61a000, 4096, 1)
+	returns: 0
+0x7fa1a09fc475: mprotect(0x0x7fa1a0c05000, 4096, 1)
+	returns: 0
+0x7fa1a09fc445: munmap(0x0x7fa18db0d000, 137676)
+	returns: 0
+0x7fa18ccb9760: set_tid_address(0x0x7fa18ca73a70)
+	returns: 25185
+0x7fa18ccb97ca: set_robust_list(0x0x7fa18ca73a80, 24)
+	returns: 0
+0x7fa18ccb97f3: futex(0x0x7fffe011f95c, 393, 1, 0x(nil), 0x(nil), -1935198304)
+	returns: -1 EAGAIN
+0x7fa18ccc31bc: rt_sigaction(32, 0x0x7fffe011f7f0, 0x(nil))
+	returns: 0
+0x7fa18ccc31bc: rt_sigaction(33, 0x0x7fffe011f7f0, 0x(nil))
+	returns: 0
+0x7fa18ccb98f3: rt_sigprocmask(1, 0x0x7fffe011f8a8, 0x(nil))
+	returns: 0
+0x7fa18d1aa265: getrlimit(3, 0x0x7fffe011f940)
+	returns: 0
+0x7fa18d1a5315: statfs(/sys/fs/selinux, 0x0x7fffe011f8b0)
+	returns: -1 ENOENT
+0x7fa18d1a5315: statfs(/selinux, 0x0x7fffe011f8b0)
+	returns: 0
+0x7fa18d1aa6c8: brk(0x(nil))
+	returns: 26337280
+0x7fa18d1aa6c8: brk(0x0x193f000)
+	returns: 26472448
+0x7fa18d1a55de: open(/proc/filesystems, 0, 438)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f7e0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18db25000
+0x7fa18d1a57ce: read(4, 0x7fa18db25000, 1024 (0x400) bytes)
+	returns: 273
+0x7fa18d1a57ce: read(4, 0x7fa18db25000, 1024 (0x400) bytes)
+	returns: 0
+0x7fa18d1a576e: close(4)
+	returns: 0
+0x7fa18d1ae1f5: munmap(0x0x7fa18db25000, 4096)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/locale-archive, 0, 2370158608)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/share/locale/locale.alias, 0, 438)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011eef0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18c9f0000
+0x7fa18d1a57ce: read(4, 0x7fa18c9f0000, 4096 (0x1000) bytes)
+	returns: 2570
+0x7fa18d1a57ce: read(4, 0x7fa18c9f0000, 4096 (0x1000) bytes)
+	returns: 0
+0x7fa18d1a576e: close(4)
+	returns: 0
+0x7fa18d1ae1f5: munmap(0x0x7fa18c9f0000, 4096)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_IDENTIFICATION, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_IDENTIFICATION, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 373, 1, 2, 4, 0)
+	returns: 0x0x7fa18c969000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache, 0, 0)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f090)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 26066, 1, 1, 4, 0)
+	returns: 0x0x7fa18c956000
+0x7fa18d0fd4fa: close(4)
+	returns: 0
+0x7fa18ccc08b7: futex(0x0x7fa18d45bf80, 129, 2147483647, 0x0x1, 0x0x4, 2)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_MEASUREMENT, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_MEASUREMENT, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 23, 1, 2, 4, 0)
+	returns: 0x0x7fa18c94f000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_TELEPHONE, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_TELEPHONE, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 59, 1, 2, 4, 0)
+	returns: 0x0x7fa18c94d000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_ADDRESS, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_ADDRESS, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 155, 1, 2, 4, 0)
+	returns: 0x0x7fa18c94c000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_NAME, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_NAME, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 77, 1, 2, 4, 0)
+	returns: 0x0x7fa18c94b000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_PAPER, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_PAPER, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 34, 1, 2, 4, 0)
+	returns: 0x0x7fa18c94a000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_MESSAGES, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_MESSAGES, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d0feea9: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_MESSAGES/SYS_LC_MESSAGES, 0, 0)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 57, 1, 2, 4, 0)
+	returns: 0x0x7fa18c947000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_MONETARY, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_MONETARY, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 286, 1, 2, 4, 0)
+	returns: 0x0x7fa18c91d000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_COLLATE, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_COLLATE, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 1170770, 1, 2, 4, 0)
+	returns: 0x0x7fa18c7fa000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_TIME, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_TIME, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 2454, 1, 2, 4, 0)
+	returns: 0x0x7fa18c91c000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_NUMERIC, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_NUMERIC, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 54, 1, 2, 4, 0)
+	returns: 0x0x7fa18c91b000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.UTF-8/LC_CTYPE, 0, 0)
+	returns: -1 ENOENT
+0x7fa18d1a55de: open(/usr/lib/locale/en_US.utf8/LC_CTYPE, 0, 2)
+	returns: 4
+0x7fa18d1a5172: fstat(4, 0x0x7fffe011f1c0)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 256360, 1, 2, 4, 0)
+	returns: 0x0x7fa18c7bb000
+0x7fa18d0fed88: close(4)
+	returns: 0
+0x7fa18d1a9f85: ioctl(1, 21505, 0x0x7fffe011f430)
+	returns: 0
+0x7fa18d1aa805: ioctl(1, 21523, 0x0x7fffe011f510)
+	returns: 0
+0x7fa18d1a55de: open(., 591872, 46)
+	returns: 4
+0x7fa18d17d9d3: getdents(4, 0x0x1927bc0, 32768)
+	returns: 408
+0x7fa18d17d9d3: getdents(4, 0x0x1927bc0, 32768)
+	returns: 0
+0x7fa18d1a576e: close(4)
+	returns: 0
+0x7fa18d1a5172: fstat(1, 0x0x7fffe011cf00)
+	returns: 0
+0x7fa18d1ae1c8: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7fa18c74a000
+0x7fa18d1a582e: write(1, 'errors.hmakefile.rulesobj-intel64run.sh\tstrace.out\n', 60)
+	returns: 60
+0x7fa18d1a582e: write(1, 'makefilemap.h\t\tpin.logstrace.cpptests\n', 50)
+	returns: 50
+0x7fa18d1a576e: close(1)
+	returns: 0
+0x7fa18d1ae1f5: munmap(0x0x7fa18c74a000, 4096)
+	returns: 0
+0x7fa18d1a576e: close(2)
+	returns: 0
+0x7fa18d181646: exit_group(0)
+#eof

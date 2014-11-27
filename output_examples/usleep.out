@@ -1,0 +1,52 @@
+0x7f13cda346c8: brk(0x(nil))
+	returns: 26324992
+0x7f13cda35295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7f13cda35418: mmap(0x(nil), 8192, 3, 34, -1, 0)
+	returns: 0x0x7f13babb6000
+0x7f13cda35295: access(/etc/ld.so.preload, 4)
+	returns: -1 ENOENT
+0x7f13cda351d5: open(/etc/ld.so.cache, 0, 1)
+	returns: 4
+0x7f13cda351a2: fstat(4, 0x0x7fff7db92b50)
+	returns: 0
+0x7f13cda35418: mmap(0x(nil), 137676, 1, 2, 4, 0)
+	returns: 0x0x7f13bab46000
+0x7f13cda35205: close(4)
+	returns: 0
+0x7f13cda35295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7f13cda351d5: open(/lib/x86_64-linux-gnu/libc.so.6, 0, 0)
+	returns: 4
+0x7f13cda35235: read(4, 0x7fff7db92d08, 832 (0x340) bytes)
+	returns: 832
+0x7f13cda351a2: fstat(4, 0x0x7fff7db92ba0)
+	returns: 0
+0x7f13cda35418: mmap(0x(nil), 3717176, 5, 2050, 4, 0)
+	returns: 0x0x7f13ba770000
+0x7f13cda35475: mprotect(0x0x7f13ba8f2000, 2097152, 0)
+	returns: 0
+0x7f13cda35418: mmap(0x0x7f13baaf2000, 20480, 3, 2066, 4, 1581056)
+	returns: 0x0x7f13baaf2000
+0x7f13cda35418: mmap(0x0x7f13baaf7000, 18488, 3, 50, -1, 0)
+	returns: 0x0x7f13baaf7000
+0x7f13cda35205: close(4)
+	returns: 0
+0x7f13cda35418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7f13ba75b000
+0x7f13cda35418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7f13ba750000
+0x7f13cda35418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7f13ba74e000
+0x7f13cda21304: arch_prctl(4098, 139722709337856)
+	returns: 0
+0x7f13cda35475: mprotect(0x0x7f13baaf2000, 16384, 1)
+	returns: 0
+0x7f13cda35475: mprotect(0x0x7f13cdc3e000, 4096, 1)
+	returns: 0
+0x7f13cda35445: munmap(0x0x7f13bab46000, 137676)
+	returns: 0
+0x7f13ba81c29e: nanosleep(0x0x7fff7db93440, 0x(nil))
+	returns: 0
+0x7f13ba81c646: exit_group(0)
+#eof

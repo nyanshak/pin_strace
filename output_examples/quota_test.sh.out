@@ -1,0 +1,98 @@
+0x7ff1ad65b6c8: brk(0x(nil))
+	returns: 35258368
+0x7ff1ad65c295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7ff1ad65c418: mmap(0x(nil), 8192, 3, 34, -1, 0)
+	returns: 0x0x7ff19a7dd000
+0x7ff1ad65c295: access(/etc/ld.so.preload, 4)
+	returns: -1 ENOENT
+0x7ff1ad65c1d5: open(/etc/ld.so.cache, 0, 1)
+	returns: 4
+0x7ff1ad65c1a2: fstat(4, 0x0x7fff466fc590)
+	returns: 0
+0x7ff1ad65c418: mmap(0x(nil), 137676, 1, 2, 4, 0)
+	returns: 0x0x7ff19a76d000
+0x7ff1ad65c205: close(4)
+	returns: 0
+0x7ff1ad65c295: access(/etc/ld.so.nohwcap, 0)
+	returns: -1 ENOENT
+0x7ff1ad65c1d5: open(/lib/x86_64-linux-gnu/libc.so.6, 0, 0)
+	returns: 4
+0x7ff1ad65c235: read(4, 0x7fff466fc748, 832 (0x340) bytes)
+	returns: 832
+0x7ff1ad65c1a2: fstat(4, 0x0x7fff466fc5e0)
+	returns: 0
+0x7ff1ad65c418: mmap(0x(nil), 3717176, 5, 2050, 4, 0)
+	returns: 0x0x7ff19a397000
+0x7ff1ad65c475: mprotect(0x0x7ff19a519000, 2097152, 0)
+	returns: 0
+0x7ff1ad65c418: mmap(0x0x7ff19a719000, 20480, 3, 2066, 4, 1581056)
+	returns: 0x0x7ff19a719000
+0x7ff1ad65c418: mmap(0x0x7ff19a71e000, 18488, 3, 50, -1, 0)
+	returns: 0x0x7ff19a71e000
+0x7ff1ad65c205: close(4)
+	returns: 0
+0x7ff1ad65c418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7ff19a382000
+0x7ff1ad65c418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7ff19a377000
+0x7ff1ad65c418: mmap(0x(nil), 4096, 3, 34, -1, 0)
+	returns: 0x0x7ff19a375000
+0x7ff1ad648304: arch_prctl(4098, 140675651172096)
+	returns: 0
+0x7ff1ad65c475: mprotect(0x0x7ff19a719000, 16384, 1)
+	returns: 0
+0x7ff1ad65c475: mprotect(0x0x7ff1ad865000, 4096, 1)
+	returns: 0
+0x7ff1ad65c445: munmap(0x0x7ff19a76d000, 137676)
+	returns: 0
+0x7ff19a444179: getpid()
+	returns: 25339
+0x7ff19a3c92fc: rt_sigaction(17, 0x0x7fff466fcb00, 0x(nil))
+	returns: 0
+0x7ff19a4441b5: geteuid()
+	returns: 1000
+0x7ff19a46c6c8: brk(0x(nil))
+	returns: 35258368
+0x7ff19a46c6c8: brk(0x0x21c1000)
+	returns: 35393536
+0x7ff19a444195: getppid()
+	returns: 24399
+0x7ff19a467123: stat(/home/brendan/MyStrace, 0x0x7fff466fcc70)
+	returns: 0
+0x7ff19a467123: stat(., 0x0x7fff466fcd00)
+	returns: 0
+0x7ff19a4675de: open(tests/quota_test.sh, 0, 116)
+	returns: 4
+0x7ff19a467b96: fcntl(4, 0, ...) [Type of optional 3rd arg is determined by 2nd arg value]
+	returns: 10
+0x7ff19a46776e: close(4)
+	returns: 0
+0x7ff19a467b96: fcntl(10, 2, ...) [Type of optional 3rd arg is determined by 2nd arg value]
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(2, 0x(nil), 0x0x7fff466fcb50)
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(2, 0x0x7fff466fcbf0, 0x(nil))
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(3, 0x(nil), 0x0x7fff466fcb50)
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(3, 0x0x7fff466fcbf0, 0x(nil))
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(15, 0x(nil), 0x0x7fff466fcb60)
+	returns: 0
+0x7ff19a3c92fc: rt_sigaction(15, 0x0x7fff466fcc00, 0x(nil))
+	returns: 0
+0x7ff19a4677ce: read(10, 0x61a200, 8192 (0x2000) bytes)
+	returns: 15
+0x7ff19a4433a4: clone(0x1200011, 0x(nil), 0x(nil), 0x0x7ff19a3779d0, 0x(nil))
+	returns: 25346
+0x7ff19a4433a4: clone(0x1200011, 0x(nil), 0x(nil), 0x0x7ff19a3779d0, 0x(nil))
+0x7ff19a46776e: close(10)
+	returns: 0
+0x7ff19a442f48: wait4(-1, 0x0x7fff466fcc2c, 0, 0x(nil))
+	returns: 25346
+0x7ff19a3c91e7: rt_sigreturn(17)
+0x7ff19a4677ce: read(10, 0x61a200, 8192 (0x2000) bytes)
+	returns: 0
+0x7ff19a443646: exit_group(0)
+#eof
