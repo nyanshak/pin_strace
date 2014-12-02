@@ -27,6 +27,8 @@ string sanitize(char a) {
 		return "\\n";
 	} else if (a == '\r') {
 		return "\\r";
+	} else if (a == ' ') {
+		return " ";
 	} else {
 		stringstream ss;
 		ss << a;
